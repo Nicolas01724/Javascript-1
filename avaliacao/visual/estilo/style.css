@@ -40,12 +40,6 @@ a.btn {
     width: fit-content;
 }
 
-button{
-    color: red;
-    width: 500px;
-    height: 200px;
-    font-size: 48px;
-}
 
 h2 {
     margin: 25px;
@@ -56,4 +50,5 @@ h2 {
     width: 150px;
     height: 100px;
     font-size: 24px;
+    color: red;
 }
