@@ -112,3 +112,61 @@ function vogalConsoante() {
         alert(letra + " é uma consoante");
     }
 }
+
+function picole () {
+
+    alert("[1] Chocolate")
+    alert("[2] Morango")
+    alert("[3] Creme")
+    alert("[4] Manga")
+    alert("[5] Melancia")
+    alert("[6] Vanilla Ice")
+    alert("[7] Céu Azul")
+    alert("[8] Brownie")
+    alert("[9] Hawaiano")
+    
+   let escolha = parseInt(prompt("Digite o número do sabor que você gostaria de ver o preço:"));
+
+    switch (escolha) {
+        case 1:
+            alert("O picolé de chocolate custa R$1,50");
+            break;
+
+        case 2:
+            alert("O picolé de morango custa R$2,50");
+            break;
+        
+        case 3:
+            alert("O picolé de creme custa R$2,50");
+            break;
+
+        case 4:
+            alert("O picolé de manga custa R$3,50");
+            break;
+        
+        case 5:
+            alert("O picolé de melancia custa R$3,40");
+            break;
+
+        case 6:
+            alert("O picolé de Vanilla Ice custa R$3,00");
+            break;
+
+        case 7:
+            alert("O picolé de Céu Azul custa R$3,60");
+            break;
+
+        case 8:
+            alert("O picolé de brownie custa R$4,00");
+            break;
+
+        case 9:
+            alert("O picolé de hawaiano custa R$5,00");
+            break;
+
+        default:
+            alert("Esse sabor não existe, tente novamente.");
+
+    }
+
+}
